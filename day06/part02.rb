@@ -2,7 +2,7 @@
 
 require 'pry'
 
-text = File.open(__dir__ + '/input.txt').read
+text = file.open(__dir__ + '/input.txt').read
 
 input = text.split("\n\n")
 
